@@ -38,6 +38,8 @@ h2{
     font-weight: bolder;
 }
 
+
+
 input{
     border-style: none none solid none;
     width: 100%;
@@ -68,6 +70,29 @@ input[type=submit]{
     padding: 8px 15px;
     font-size: medium;
     cursor: pointer;
+
+}
+
+.boton{
+    text-align: center;
+    float: right;
+    clear: both;
+    margin: 0;
+    margin-top: 5vh;
+    width: 25%;
+    background-color: #0067B8;
+    color: #fff;
+    box-shadow: 0;
+    border-style: none;
+    padding: 8px 15px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.boton:focus{
+    box-shadow: 0;
+    border-style: none;
+    font-size: medium;
 }
 
 .second{
